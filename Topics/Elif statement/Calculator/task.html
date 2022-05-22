@@ -1,0 +1,102 @@
+<h2>Calculator</h2>
+<html>
+<head></head>
+<body>
+<div data-v-c46181e4=""><p>Let's write a simple calculator!</p>
+
+    <p>It will read 3 lines:</p>
+
+    <ul>
+        <li>the first number</li>
+        <li>the second number</li>
+        <li>the arithmetic operation.</li>
+    </ul>
+
+    <p>Numbers are <strong>floats</strong>!</p>
+
+    <p>The output is the result of the following: <code class="java">first_number
+        operation second_number</code>.</p>
+
+    <p>Operations are: <samp>+</samp>, <samp>-</samp>, <samp>/</samp>,
+        <samp>*</samp>, <samp>mod</samp>, <samp>pow</samp>,
+        <samp>div.</samp><br>
+        <samp>mod</samp> — modulo operation, i.e. the remainder of the division
+        <code class="java">first_number % second_number</code>,<br>
+        <samp>pow</samp> — exponentiation, the first number will be the base
+        and the second — the power: <code class="java">first_number **
+            second_number</code>,<br>
+        <samp>div</samp> — integer division <code class="java">first_number //
+            second_number</code>.</p>
+
+    <p>Note that if the second number is <strong>0</strong> and you want to
+        perform any of the operations <code class="java">/</code>, <code
+                class="java">mod</code>, or <code class="java">div</code>, the
+        calculator should say <code class="java">"Division by 0!"</code></p>
+
+    <p></p>
+    <div class="alert alert-warning">If you have too many <code class="java">elif</code>
+        branches, you may consider another approach, for example, break the
+        code into smaller functions. Since you don't know how to do it yet,
+        ignore the code style error about the number of <code
+                class="java">elif</code> branches.
+    </div>
+    <p></p></div>
+
+<hr>
+
+<div prerequisites="[object Object]" data-component-name="StepPractice">
+    <div data-v-6188f658="" id="step-hints" class="step-hint mt-3"><!---->
+        <div data-v-6188f658="" class="d-flex align-items-center">
+            <button data-v-6188f658="" click-event-part="step_hints"
+                    click-event-target="see_hint" type="button"
+                    class="btn btn-outline-dark btn-sm"
+                    data-component-name="transition">
+                <svg data-v-6188f658="" viewBox="0 0 16 16" width="1em"
+                     height="1em" focusable="false" role="img"
+                     aria-label="lightning fill"
+                     xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                     class="bi-lightning-fill b-icon bi">
+                    <g data-v-6188f658=""
+                       transform="translate(8 8) scale(0.85 0.85) translate(-8 -8)">
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"></path>
+                    </g>
+                </svg>
+                See hint
+            </button>
+        </div>
+    </div>
+    <div data-v-34e9e92e="" class="mt-3" data-component-name="Samples">
+        <div data-v-34e9e92e="" class=""><p data-v-34e9e92e=""
+                                            class="border-top pt-2 my-2">
+            <strong data-v-34e9e92e=""> Sample Input 1: </strong></p>
+            <pre data-v-34e9e92e="" class="ml-2">5.0
+0.0
+mod</pre>
+            <p data-v-34e9e92e="" class="border-top pt-2 my-2"><strong
+                    data-v-34e9e92e=""> Sample Output 1: </strong></p>
+            <pre data-v-34e9e92e="" class="ml-2">Division by 0!</pre>
+        </div>
+        <div data-v-34e9e92e="" class=""><p data-v-34e9e92e=""
+                                            class="border-top pt-2 my-2">
+            <strong data-v-34e9e92e=""> Sample Input 2: </strong></p>
+            <pre data-v-34e9e92e="" class="ml-2">-12.0
+-8.0
+*</pre>
+            <p data-v-34e9e92e="" class="border-top pt-2 my-2"><strong
+                    data-v-34e9e92e=""> Sample Output 2: </strong></p>
+            <pre data-v-34e9e92e="" class="ml-2">96.0</pre>
+        </div>
+        <div data-v-34e9e92e="" class="border-bottom"><p data-v-34e9e92e=""
+                                                         class="border-top pt-2 my-2">
+            <strong data-v-34e9e92e=""> Sample Input 3: </strong></p>
+            <pre data-v-34e9e92e="" class="ml-2">5.0
+10.0
+/</pre>
+            <p data-v-34e9e92e="" class="border-top pt-2 my-2"><strong
+                    data-v-34e9e92e=""> Sample Output 3: </strong></p>
+            <pre data-v-34e9e92e="" class="ml-2">0.5</pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>

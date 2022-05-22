@@ -1,0 +1,30 @@
+content:
+- Introduction to Python
+- Overview of the basic program
+- Multi-line programs
+- Basic data types
+- Invoking a function
+- Taking input
+- Naming variables
+- Integer arithmetic
+- Program with numbers
+- List
+- Comparisons
+- If statement
+- Else statement
+- Load module
+- For loop
+- While loop
+- Loop control statements
+- Quotes and multi-line strings
+- Elif statement
+- Basic string methods
+- Type casting
+- Escape sequences
+- Split and join
+- Errors
+- Exceptions
+- Built-in exceptions
+- Exception handling
+- Declaring a function
+- Scopes

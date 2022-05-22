@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: float
+- text: int
+- text: print
+- text: str
+- text: type
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6514#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 21 May 2022 06:25:18 UTC
+record: -1
+selected_options:
+- 0
+- 1
+- 3

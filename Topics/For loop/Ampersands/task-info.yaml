@@ -1,0 +1,22 @@
+type: string
+files:
+- name: answer.txt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 2
+    placeholder_text: type your solution here
+    initial_state:
+      length: 2
+      offset: 0
+    initialized_from_dependency: false
+    selected: true
+    status: Failed
+  text: type your solution here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6547#comment
+status: Failed
+feedback:
+  message: Expected str, got None
+  time: Sat, 21 May 2022 03:21:40 UTC
+record: -1

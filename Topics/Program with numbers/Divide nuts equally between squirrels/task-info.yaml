@@ -1,0 +1,12 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# put your python code here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6464#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 19 May 2022 21:13:12 UTC
+record: -1
